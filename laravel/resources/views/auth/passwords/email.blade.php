@@ -12,7 +12,7 @@
                         <h2 class="h3 card-title text-center mt-2">パスワードの再設定</h2>
                         @include('error_card_list')
                         @if (session('status'))
-                            <div class="card-text alert alert-succcess">
+                            <div class="card-text alert alert-success">
                                 {{ session('status') }}
                             </div>
                         @endif
